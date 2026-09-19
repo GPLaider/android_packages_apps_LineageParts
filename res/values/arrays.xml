@@ -507,4 +507,26 @@
         <item>1</item>
         <item>0</item>
     </string-array>
+
+    <string-array name="osverflow_inactivity_reboot_entries">
+        <item>@string/osverflow_inactivity_reboot_disabled</item>
+        <item>@string/osverflow_inactivity_reboot_1_hour</item>
+        <item>@string/osverflow_inactivity_reboot_4_hours</item>
+        <item>@string/osverflow_inactivity_reboot_8_hours</item>
+        <item>@string/osverflow_inactivity_reboot_12_hours</item>
+        <item>@string/osverflow_inactivity_reboot_24_hours</item>
+        <item>@string/osverflow_inactivity_reboot_48_hours</item>
+        <item>@string/osverflow_inactivity_reboot_72_hours</item>
+    </string-array>
+
+    <string-array name="osverflow_inactivity_reboot_values" translatable="false">
+        <item>0</item>
+        <item>3600000</item>
+        <item>14400000</item>
+        <item>28800000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+        <item>172800000</item>
+        <item>259200000</item>
+    </string-array>
 </resources>

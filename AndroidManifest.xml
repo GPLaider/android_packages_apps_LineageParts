@@ -328,7 +328,7 @@
         <!-- Anonymous Statistics -->
         <receiver
             android:name=".lineagestats.ReportingServiceManager"
-            android:enabled="true"
+            android:enabled="false"
             android:exported="false"
             android:label="ReportingServiceManager">
             <intent-filter>
@@ -339,12 +339,13 @@
 
         <service
             android:name=".lineagestats.ReportingService"
-            android:enabled="true"
+            android:enabled="false"
             android:exported="false"
             android:label="ReportingService" />
 
         <service
             android:name=".lineagestats.StatsUploadJobService"
+            android:enabled="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity
@@ -364,6 +365,7 @@
 
         <activity
             android:name=".logo.PlatLogoActivity"
+            android:enabled="false"
             android:configChanges="orientation|keyboardHidden"
             android:exported="true"
             android:theme="@style/EggStyle">
@@ -375,6 +377,7 @@
 
         <activity
             android:name=".egg.octo.Ocquarium"
+            android:enabled="false"
             android:exported="true"
             android:label="@string/egg_title"
             android:theme="@style/EggStyle">
